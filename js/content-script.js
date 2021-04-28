@@ -77,26 +77,26 @@ else
     console.log('not huya');
 }
 // chaoxing
-if(/.passport2.chaoxing.com/.test(website))
-{
-    const user = document.querySelector("#phone");
-    const psw = document.querySelector("#pwd");
-    const login = document.querySelector("#loginBtn");
-    user.value = "18816525960";
-    psw.value = "2632995"
-    login.click();
-}
-else 
-{
-    console.log("not chaoxing");
-}
+// if(/.passport2.chaoxing.com/.test(website))
+// {
+//     const user = document.querySelector("#phone");
+//     const psw = document.querySelector("#pwd");
+//     const login = document.querySelector("#loginBtn");
+//     user.value = "";
+//     psw.value = ""
+//     login.click();
+// }
+// else 
+// {
+//     console.log("not chaoxing");
+// }
 // swcloud
-if(/.chnroute.com/.test(website))
-{
-    document.querySelector("#email").value = "rruinmi1@gmail.com";
-    document.querySelector("#password").value = "a2632995";
-    document.querySelector("#app > section > div > div > div > div.card.card-primary > form > div > div:nth-child(4) > button").click();
-}
+// if(/.chnroute.com/.test(website))
+// {
+//     document.querySelector("#email").value = "";
+//     document.querySelector("#password").value = "";
+//     document.querySelector("#app > section > div > div > div > div.card.card-primary > form > div > div:nth-child(4) > button").click();
+// }
 // instagram
 if(document.querySelector("body > div.RnEpo.Yx5HN > div") != null)
 {
