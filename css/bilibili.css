@@ -1,0 +1,20 @@
+#internationalHeader > div.mini-header.m-header > div > div.nav-link > ul > li:nth-child(8),
+#internationalHeader > div.mini-header.m-header > div > div.nav-link > ul > li:nth-child(6),
+#internationalHeader > div.mini-header.m-header > div > div.nav-link > ul > li:nth-child(5),
+#internationalHeader > div.mini-header.m-header > div > div.nav-link > ul > li:nth-child(3),
+#internationalHeader > div.mini-header.m-header > div > div.nav-link > ul > li:nth-child(2),
+#reportFirst1,
+#app > div > div.storey-box.b-wrap,
+body > div.international-footer,
+#app > div > div.home-page.f-clear > div.home-container > div > div.right-panel > div.adaptive-scroll,
+#internationalHeader > div > div > div.nav-user-center > div.user-con.signin > div:nth-child(2),
+#reco_list > div.rec-list > div:nth-child(1) > div,
+#reportFirst2 > div.bypb-window,
+#reportFirst3 > div.bypb-window.ggpos,
+#activity_vote
+{
+    display: none !important;
+}
+#internationalHeader > div.bili-banner {
+    pointer-events: none;
+}

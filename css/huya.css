@@ -1,0 +1,59 @@
+#J_roomHeader > div.room-hd-l > div.host-info > div > span.open-souhu.clickstat,
+#J_roomHeader > div.room-hd-l > div.host-info > div > a,
+#chatHostPic,
+#player-gift-wrap > ul,
+#player-face,
+#week-star-btn,
+#super-star-rank,
+#J_roomHdR > div > div.room-business-game,
+#diy-activity-icon-2187,
+#player-gift-wrap > div.player-gift-left > div.tv-icon,
+#player-gift-wrap > div.player-gift-left > div.guess-icon,
+#player-gift-wrap > div.player-gift-left > div.more-activity-icon,
+#J_illegalReport,
+#share-entrance,
+#J_roomHdR > div > div.jump-to-phone,
+#J_duyaHeaderRight > div > div.hy-nav-right.hy-nav-kaibo,
+#hy-nav-download,
+#J_hyHdNavItemGame,
+#J_hyHdNavItemGame,
+#J_roomULike,
+body > div.mod-sidebar > div.sidebar-show,
+#duya-header > div > div > div.duya-header-nav > div.hy-nav-item.hy-nav-item-match,
+#duya-header > div > div > div.duya-header-nav > div.hy-nav-item.hy-nav-item-video,
+#player-gift-wrap > div.player-gift-left > div.accompany-icon,
+#diy-activity-icon-55,
+#diy-activity-icon-3061,
+#J_adCategory
+{
+    display: none !important;
+}
+#J_roomHeader > div.room-hd-l > div.host-info > div > div
+{
+    pointer-events: none;
+}
+
+.player-gift-wrap {
+    background: #f4f5f8;
+}
+#player-gift-wrap
+{
+    background: #f4f5f8;
+}
+.room-union .union-box 
+{
+    height: 120px !important;
+}
+#J_mainWrap
+{
+    padding: 0 0 0 5vw;
+}
+#duya-header
+{
+    top: -50px;
+    transition: all 0.2s cubic-bezier(0.29, 0.57, 0.58, 1) 0s;
+}
+#duya-header:hover
+{
+    top: 0;
+}

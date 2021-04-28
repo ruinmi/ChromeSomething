@@ -1,0 +1,49 @@
+#js-room-activity,
+#js-aside,
+#js-player-toolbar > div > div:nth-child(1),
+#js-player-asideMain > div > div.layout-Player-chat > div > div.ChatSpeak > div:nth-child(1) > div,
+#js-player-asideMain > div > div.layout-Player-chat > div > div.ChatSpeak > div.ChatSend > div.ChatBarrageCollect > div,
+#js-player-asideMain > div > div.layout-Player-asideMainTop > div.layout-Player-rank > div > div > div > div.ChatTabContainer-conWraper > div.ChatTabContainer-content.is-active > div > div.FansRankInfo.clearfix,
+#js-player-title > div > div.Title-roomInfo > div:nth-child(3),
+#js-header > div > div > div.Header-right > div.Header-download-wrap,
+#js-header > div > div > div.Header-right > div.Header-broadcast-wrap,
+#js-header > div > div > div.Header-left > div > ul > li:nth-child(5),
+#js-player-toolbar > div > div:nth-child(2) > div > div:nth-child(1) > div,
+#js-header > div > div > div.Header-left > div > ul > li:nth-child(4),
+#js-player-title > div > div.Title-anchorPic > div > div,
+#js-player-title > div > div.Title-roomInfo > div:nth-child(2) > div:nth-child(2),
+#js-player-title > div > div.Title-roomInfo > div:nth-child(2) > div:nth-child(1) > div:nth-child(5),
+#js-player-title > div > div.Title-roomInfo > div:nth-child(2) > div:nth-child(1) > div:nth-child(4)
+{
+    display: none !important;
+}
+#js-player-toolbar
+{
+    border: none;
+}
+#js-player-title > div > div.Title-anchorPic > div > a > div > img,
+#js-player-title > div > div.Title-anchorPic > div
+{
+    border-radius: 50%;
+}
+#js-player-title > div > div.Title-anchorPic
+{
+    width: 60px;
+    height: 60px;
+}
+.layout-Player-title 
+{
+    min-height: 60px !important;
+}
+#js-player-title > div
+{
+    height: 60px !important;
+}
+.layout-Cover-card 
+{
+    background-color: #f2f5f6 !important;
+}
+.DyLiveRecord 
+{
+    display: none !important;
+}
