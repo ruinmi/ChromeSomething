@@ -1,0 +1,155 @@
+#topDataTd>div>div.topbg>div.search_subject.nowrap {
+    left: 210px;
+    top: 7px;
+    width: 600px;
+}
+
+#topDataTd {
+    border-bottom: 1px solid #aaaaaa47;
+}
+
+#leftPanel {
+    background: #fff;
+}
+
+#smartSearch {
+    height: 43px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: none;
+    background: #f5f5f5;
+}
+
+#subject {
+    line-height: 43px;
+    height: 43px;
+    background: rgb(245, 245, 245);
+    font-size: 14px;
+}
+
+#searchIcon {
+    display: none;
+}
+
+#subjectsearchLogo {
+    right: 11px;
+    top: 17px;
+}
+
+/* #__QmDefPanelId16196872683680028254599085904664___QMMenu {
+
+} */
+
+#topDataTd>div>div.topbg {
+    background: none;
+}
+
+
+#logotips>div {
+    position: absolute;
+}
+
+ul.fdul li.fs,
+ul.fdul li.fn {
+    height: 30px;
+    line-height: 30px;
+    border-radius: 0 20px 20px 0;
+    margin: 0 13px 0 0;
+}
+
+ul.fdul li.fs>a,
+ul.fdul li.fn>a {
+    font-size: 0.875rem;
+    height: 30px;
+    letter-spacing: .2px;
+    padding-left: 38px;
+}
+
+ul.fdul li.fn {
+    background: rgba(2, 2, 233, 0.219);
+}
+
+ul.fdul li.fs>a {
+    color: rgb(53, 53, 53);
+}
+
+ul.fdul li.fn>a {
+    font-weight: bold;
+    color: rgb(25, 0, 134);
+}
+
+.newskinbodd li.fs a:hover {
+    background: #dce0e152;
+}
+
+#icon_personal {
+    width: 16px;
+    height: 16px;
+    margin-right: 145px;
+    margin-top: -25px;
+    float: right;
+}
+
+#navMidBar {
+    top: 40px;
+}
+
+tr td {
+    font-size: .875rem;
+    letter-spacing: .2px;
+    font-weight: normal;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+div.toarea>table {
+    height: 40px;
+}
+
+div.toarea table tbody tr td.cx {
+    padding: 10px 0 1px 5px;
+}
+div.toarea table tbody tr td.ci {
+    padding: 10px 0 0 0;
+}
+table.i tbody td.fg_n {
+    width: 100px;
+}
+#frm > table > tbody > tr > td:nth-child(4) {
+    width: 230px !important;
+}
+.toolbg {
+    background: none !important;
+}
+.btn_gray {
+    background: none !important;
+}
+#SysFolderList>div,
+#navBarTd {
+    border: none;
+}
+
+
+
+
+
+#frm>div:nth-child(32),
+#sepLineTd,
+#resize>img,
+#SetInfo>div:nth-child(1)>a:nth-child(2),
+#sendToMobile,
+#resize>div.fdbody.bodybgbt,
+#folder_starred>input,
+#navBarTd>li.checkpart.fs,
+#navBarTd>li.addrpart.fs,
+#my_note>li:nth-child(1),
+#my_note>li:nth-child(2),
+#my_note>li:nth-child(3),
+#my_note>li:nth-child(5),
+#my_note>li:nth-child(8),
+#folder_5_td>a.nolinkbg.normal.fdleft.empty_link,
+#folder_6_td>a.nolinkbg.normal.fdleft.empty_link,
+#SetInfo>div:nth-child(1)>span:nth-child(3),
+#SetInfo>div:nth-child(1)>a:nth-child(5),
+#SetInfo>div:nth-child(1)>span:nth-child(6) {
+    display: none !important;
+}
