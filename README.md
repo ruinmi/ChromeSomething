@@ -8,4 +8,10 @@ Chrome 地址栏键入：chrome://extensions/
 
     分辨率：1920×1080
     Chrome缩放：90%、最大化
-    
+
+
+1.huya.com
+2.bilibili.com
+3.douyu.com
+4.mail.qq.com
+5.新建标签
