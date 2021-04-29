@@ -41,6 +41,7 @@
     "newtab": "html/NewTab.html"
   },
   "permissions": [
-    "storage"
+    "storage",
+    "downloads"
   ]
 }

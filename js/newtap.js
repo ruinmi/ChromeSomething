@@ -100,15 +100,21 @@ document.querySelector(".wrap").onclick = function () {
 
 // 添加icon按钮
 document.querySelector("body  div.flow-window  div  span").onclick = function () {
-    const icon_input = document.querySelector("body  div.flow-window  div  input[type=text]:nth-child(1)");
     const href_input = document.querySelector("body  div.flow-window  div  input[type=text]:nth-child(2)");
     const title_input = document.querySelector("body  div.flow-window  div  input[type=text]:nth-child(3)");
+    const icon_input = document.querySelector("body  div.flow-window  div  input[type=text]:nth-child(1)")
+    const icon = "https://api.clowntool.cn/getico/?url="+href_input.value.match(/.*?\.[a-z]{3}\/|.*?\.[a-z]{2}\//);
+    const title = title_input.value;
+    const href = href_input.value;
 
-    const icon = icon_input.value
-    const title = title_input.value
-    const href = href_input.value
-    if (icon != '' && href != '' && title != '') {
-        Icons.setIcon(icon, title, href);
+    if (href != '' && title != '') {
+        if(icon_input.value != '')
+        {
+            Icons.setIcon(icon_input.value, title, href);
+        } else {
+            Icons.setIcon(icon, title, href);
+        }
+        
         icon_input.value = '';
         href_input.value = '';
         title_input.value = '';
