@@ -119,21 +119,54 @@ table.i tbody td.fg_n {
 }
 .toolbg {
     background: none !important;
+    position: absolute;
+    left: 34px;
+    top: 33px;
+    border-bottom: none !important;
 }
-.btn_gray {
-    background: none !important;
+div.left .btn_gray {
+    background: none;
+    border: none;
 }
 #SysFolderList>div,
 #navBarTd {
     border: none;
 }
-
-
-
-
+form .talk {
+    display: flex;
+    justify-content: center;
+    padding: 11px 0;
+    line-height: 16px;
+    font-size: 16px;
+}
+#frm > table > tbody > tr {
+    height: 48px;
+}
+td.o_title2 {
+    background: #f2f4f6 !important;
+}
+#frm > table > tbody > tr > td:nth-child(1) {
+    width: 770px;
+}
+div.toolbg div.left a.btn_gray {
+    line-height: 33px;
+    height: 33px;
+}
+#mainmail > div.readmailinfo {
+    margin-top: 30px;
+}
+div.toolbg div.left a.btn_gray:hover {
+    background: #eadfff !important;
+    border-radius: 7px;
+}
 
 #frm>div:nth-child(32),
 #sepLineTd,
+#frm > div > div.right,
+#frm > table > tbody > tr > td:nth-child(2),
+#frm > table > tbody > tr > td:nth-child(3),
+#frm > table > tbody > tr > td:nth-child(4),
+#frm > table > tbody > tr > td:nth-child(5),
 #resize>img,
 #SetInfo>div:nth-child(1)>a:nth-child(2),
 #sendToMobile,

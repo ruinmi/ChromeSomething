@@ -8,4 +8,8 @@ try {
     main_a.href = reci_box_a.href;
     logo_a.href = reci_box_a.href;
     reci_box_a.click();
-} catch (error){};
+    // document.getElementById("div_showbefore").onclick = function(e) {
+    //     console.log(e.target);
+    //     console.log('e.target.value');
+    // }
+} catch (error) {};
