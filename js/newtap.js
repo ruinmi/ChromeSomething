@@ -5,7 +5,7 @@ const frame = document.querySelector("body div.content div.icons div");
 const settings = document.querySelector("body div.settings");
 const topbar = document.querySelector('body div.flow-window div.top-bar');
 const flowframe = document.querySelector('body div.flow-window');
-let ModifyKey = null;
+let ModifyKey = false;
 let Icons = {
 
     init: function () {
@@ -39,7 +39,7 @@ let Icons = {
             e.stopPropagation();
             Icons.deleteIcon(key);
         };
-        ModifyIcon(ModifyKey);
+        ModifyIcon();
     },
 
     setIcon: function (icon, title, href) {
@@ -100,14 +100,19 @@ document.querySelector(".wrap").onclick = function () {
     icon_input.value = '';
     href_input.value = '';
     title_input.value = '';
-    ModifyKey = null;
+    ModifyKey = false;
 
     // flowframe.style.top ='490px';
     // flowframe.style.left ='662px';
 };
 
 // 添加icon按钮
-function aDDIcon(ModifyKey = null) {
+function aDDIcon() {
+    if(ModifyKey) {
+        console.log(ModifyKey);
+        Icons.deleteIcon(ModifyKey);
+        ModifyKey = false;
+    }
     const href_input = document.querySelector("body  div.flow-window  div  input[type=text]:nth-child(2)");
     const title_input = document.querySelector("body  div.flow-window  div  input[type=text]:nth-child(3)");
     const icon_input = document.querySelector("body  div.flow-window  div  input[type=text]:nth-child(1)");
@@ -125,10 +130,7 @@ function aDDIcon(ModifyKey = null) {
         icon_input.value = '';
         href_input.value = '';
         title_input.value = '';
-        if(ModifyKey) {
-            Icons.deleteIcon(ModifyKey);
-            ModifyKey = null;
-        }
+        
         return true;
     } else {
         alert('有留空');
@@ -149,7 +151,7 @@ settings.onclick = function () {
 // 回车监听
 flowframe.addEventListener('keyup', function (e) {
     if (e.code == 'Enter') {
-        if (aDDIcon(ModifyKey)) {
+        if (aDDIcon()) {
             document.querySelector(".wrap").click();
         }
     }
@@ -223,7 +225,7 @@ function ModifyIcon() {
                 flowSelect.style.display = 'block';
                 flowSelect.style.left = (e.clientX - (document.body.offsetWidth / 2 - 250)) + 'px';
                 flowSelect.style.top = (e.clientY - (195.333 + 0.2 * window.innerHeight)) + 'px';
-
+                
                 let cou = 0;
                 for (let item in e.path) {
                     cou++;
@@ -232,8 +234,10 @@ function ModifyIcon() {
                 chrome.storage.sync.get(function (li_e) {
                     for(let key in li_e) {
                         if(a_href == li_e[key]['href']) {
+                            
                             // Icons.deleteIcon(key);
                             document.querySelector("#flow-select ul li:nth-child(1)").addEventListener('mouseup', e => {
+                                ModifyKey = key;
                                 settings.click();
                                 const href_input = document.querySelector("body  div.flow-window  div  input[type=text]:nth-child(2)");
                                 const title_input = document.querySelector("body  div.flow-window  div  input[type=text]:nth-child(3)");
