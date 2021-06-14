@@ -11,10 +11,27 @@ body > div.international-footer,
 #reco_list > div.rec-list > div:nth-child(1) > div,
 #reportFirst2 > div.bypb-window,
 #reportFirst3 > div.bypb-window.ggpos,
+#reportFirst2,
+#reportFirst3,
 #activity_vote
 {
     display: none !important;
 }
 #internationalHeader > div.bili-banner {
     pointer-events: none;
+}
+div.text.p-rel.description .content {
+    pointer-events: none;
+}
+#app > #internationalHeader {
+    /* transition: all 0.2s ease; */
+    top: -56px;
+    height: 110px;
+}
+#app > #internationalHeader:hover {
+    top: 0px;
+}
+#app > div.v-wrap {
+    position: relative;
+    top: -82px;
 }

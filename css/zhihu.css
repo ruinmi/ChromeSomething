@@ -1,0 +1,5 @@
+div.SearchSideBar > div,
+.AppHeader-userInfo div:nth-child(2)
+{
+    display: none !important;
+}
