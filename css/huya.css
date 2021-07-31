@@ -7,9 +7,6 @@
 #super-star-rank,
 #J_roomHdR > div > div.room-business-game,
 #diy-activity-icon-2187,
-#player-gift-wrap > div.player-gift-left > div.tv-icon,
-#player-gift-wrap > div.player-gift-left > div.guess-icon,
-#player-gift-wrap > div.player-gift-left > div.more-activity-icon,
 #J_illegalReport,
 #share-entrance,
 #J_roomHdR > div > div.jump-to-phone,
@@ -21,9 +18,9 @@
 body > div.mod-sidebar > div.sidebar-show,
 #duya-header > div > div > div.duya-header-nav > div.hy-nav-item.hy-nav-item-match,
 #duya-header > div > div > div.duya-header-nav > div.hy-nav-item.hy-nav-item-video,
-#player-gift-wrap > div.player-gift-left > div.accompany-icon,
 #diy-activity-icon-55,
 #diy-activity-icon-3061,
+#player-gift-wrap > div.player-gift-left,
 #J_adCategory
 {
     display: none !important;

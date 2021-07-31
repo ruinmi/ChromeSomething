@@ -1,0 +1,56 @@
+body > div.tbh-nav.J_Module.tb-pass.tb-bg,
+body > div.screen-outer.clearfix,
+body > div.layer.clearfix,
+body > div.layer:nth-child(7),
+body > div.layer:nth-child(8),
+body > div.layer:nth-child(9),
+body > div.layer:nth-child(10),
+body > div.cup.J_Cup.search-fixed > div > div > div.tbh-qr-wrapper,
+body > div.tbh-fixedtool.J_Module,
+body > div.cup.J_Cup.search-fixed > div > div > div.tbh-search.J_Module > div > div.search-ft.J_SearchFt.clearfix,
+#J_SiteFooter,
+#content > div.login-adlink,
+#content > div.login-newbg,
+#page #header > div > a,
+#page > div.footer,
+#login > div.corner-icon-view.view-type-qrcode > div,
+#tbSearchContent > label
+{
+    display: none !important;
+}
+body > div.cover.J_Cover {
+    background-color: #e8e3e2;
+}
+#J_SiteNav {
+    background: none;
+    border-bottom: 1px solid #dfd4d0;
+}
+#J_SiteNavBd {
+    background: #e8e2e0;
+}
+body > div.cup.J_Cup.search-fixed > div > div > div.tbh-search.J_Module {
+    margin-left: 308px;
+    margin-right: 232px;
+    transform: translateY(100px);
+}
+body > div.cup.J_Cup.search-fixed > div > div {
+    height: 500px;
+    padding-top: 100px;
+}
+body > div.cup.J_Cup.search-fixed > div > div > div.tbh-logo.J_Module.tb-pass {
+transform: translateX(525px);
+
+}
+
+#page #content {
+    background: #ff5929;
+}
+#header > div > h1 {
+    height: 45px;
+}
+
+
+#page #content > div.content-layout > div {
+    left: 50%;
+    transform: translateX(-50%);
+}

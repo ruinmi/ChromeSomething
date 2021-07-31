@@ -5,46 +5,59 @@
   "version": "1.0.0",
   // Recommended
   "description": "A filter",
-  "content_scripts": [
-    {
-      // "<all_urls>" 表示匹配所有地址
-      "matches": [
-        "https://www.huya.com/*",
-        "https://www.douyu.com/*",
-        "https://*.bilibili.com/*",
-        "https://*.youtube.com/*",
-        "http://*.wanjie8.com/*",
-        "http://passport2.chaoxing.com/*",
-        "https://chnroute.com/auth/login",
-        "https://www.instagram.com/*",
-        "https://mail.qq.com/*",
-        "https://*.chaoxing.com/*",
-        "https://*.zhihu.com/*"
-      ],
-      // 多个JS按顺序注入
-      "js": [
-        "js/jquery-3.6.0.slim.js",
-        "js/content-script.js",
-        "js/mailqq.js",
-        "js/chaoxing.js",
-        "js/bilibili.js",
-        "js/zhihu.js"
-      ],
-      // JS的注入可以随便一点，但是CSS的注意就要千万小心了，因为一不小心就可能影响全局样式
-      "css": [
-        "css/huya.css",
-        "css/douyu.css",
-        "css/bilibili.css",
-        "css/youtube.css",
-        "css/mailQQ.css",
-        "css/zhihu.css"
-      ],
-      // 代码注入的时间，可选值： "document_start", "document_end", or "document_idle"，最后一个表示页面空闲时，默认document_idle
-      "run_at": "document_end",
-      "all_frames": true
-    }
-  ],
-  "chrome_url_overrides" : {
+  "content_scripts": [{
+    // "<all_urls>" 表示匹配所有地址
+    "matches": [
+      "https://www.huya.com/*",
+      "https://www.douyu.com/*",
+      "https://*.bilibili.com/*",
+      "https://*.youtube.com/*",
+      "http://*.wanjie8.com/*",
+      "http://passport2.chaoxing.com/*",
+      "https://chnroute.com/auth/login",
+      "https://www.instagram.com/*",
+      "https://mail.qq.com/*",
+      "https://*.chaoxing.com/*",
+      "https://*.zhihu.com/*",
+      "https://*.taobao.com/*",
+      "https://www7.kissmovies.io/*"
+    ],
+    "exclude_matches": [
+      "https://buyertrade.taobao.com/*",
+      "https://cart.taobao.com/*",
+      "https://www.taobao.com/markets/footmark/*",
+      "https://i.taobao.com/*"
+    ],
+    // 多个JS按顺序注入
+    "js": [
+      "js/jquery-3.6.0.slim.js",
+      "js/content-script.js",
+      "js/mailqq.js",
+      "js/chaoxing.js",
+      "js/bilibili.js",
+      "js/zhihu.js",
+      "js/taobao.js",
+      "js/kissmovies.js"
+    ],
+    // JS的注入可以随便一点，但是CSS的注意就要千万小心了，因为一不小心就可能影响全局样式
+    "css": [
+      "css/huya.css",
+      "css/douyu.css",
+      "css/bilibili.css",
+      "css/youtube.css",
+      "css/mailQQ.css",
+      "css/zhihu.css",
+      "css/taobao.css"
+    ],
+    // 代码注入的时间，可选值： "document_start", "document_end", or "document_idle"，最后一个表示页面空闲时，默认document_idle
+    "run_at": "document_end",
+    "all_frames": true,
+    "web_accessible_resources": [{
+      "matches": ["<all_urls>"],
+      "resources": ["img/bilibanner.jpg"]
+    }]
+  }],
+  "chrome_url_overrides": {
     "newtab": "html/NewTab.html"
   },
   "permissions": [
