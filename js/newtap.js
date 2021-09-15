@@ -46,7 +46,7 @@ let Icons = {
         chrome.storage.sync.get(function (e) {
             let count = 0;
             for (let key in e) {
-                count += 1;
+                count++;
             }
             let new_icon = {
                 icon: icon,
@@ -230,10 +230,11 @@ function ModifyIcon() {
                 for (let item in e.path) {
                     cou++;
                 }
-                let a_href = e.path[String(cou - 8)]['href'];
+                let a_title = e.path[String(cou - 8)]['innerText'].slice(0, -2);
+                console.log(e.path);
                 chrome.storage.sync.get(function (li_e) {
                     for(let key in li_e) {
-                        if(a_href == li_e[key]['href']) {
+                        if(a_title == li_e[key]['title']) {
                             
                             // Icons.deleteIcon(key);
                             document.querySelector("#flow-select ul li:nth-child(1)").addEventListener('mouseup', e => {

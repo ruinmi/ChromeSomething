@@ -1,37 +1,64 @@
-#internationalHeader > div.mini-header.m-header > div > div.nav-link > ul > li:nth-child(8),
-#internationalHeader > div.mini-header.m-header > div > div.nav-link > ul > li:nth-child(6),
-#internationalHeader > div.mini-header.m-header > div > div.nav-link > ul > li:nth-child(5),
-#internationalHeader > div.mini-header.m-header > div > div.nav-link > ul > li:nth-child(3),
-#internationalHeader > div.mini-header.m-header > div > div.nav-link > ul > li:nth-child(2),
+#internationalHeader>div.mini-header.m-header>div>div.nav-link>ul>li:nth-child(8),
+#internationalHeader>div.mini-header.m-header>div>div.nav-link>ul>li:nth-child(6),
+#internationalHeader>div.mini-header.m-header>div>div.nav-link>ul>li:nth-child(5),
+#internationalHeader>div.mini-header.m-header>div>div.nav-link>ul>li:nth-child(3),
+#internationalHeader>div.mini-header.m-header>div>div.nav-link>ul>li:nth-child(2),
 #reportFirst1,
-#app > div > div.storey-box.b-wrap,
-body > div.international-footer,
-#app > div > div.home-page.f-clear > div.home-container > div > div.right-panel > div.adaptive-scroll,
-#internationalHeader > div > div > div.nav-user-center > div.user-con.signin > div:nth-child(2),
-#reco_list > div.rec-list > div:nth-child(1) > div,
-#reportFirst2 > div.bypb-window,
-#reportFirst3 > div.bypb-window.ggpos,
+#app>div>div.storey-box.b-wrap,
+body>div.international-footer,
+#my-dear-haruna-vm,
+#gift-control-vm > div > div.vertical-middle.dp-table.section.right-part.p-relative > div > div.m-guard-ent.gift-section.guard-ent,
+#app>div>div.home-page.f-clear>div.home-container>div>div.right-panel>div.adaptive-scroll,
+#internationalHeader>div>div>div.nav-user-center>div.user-con.signin>div:nth-child(2),
+#head-info-vm > div > div > div.upper-row > div.left-ctnr > div.dp-i-block.info-section.v-middle,
+#head-info-vm > div > div > div.upper-row > div.right-ctnr > div:nth-child(1),
+#head-info-vm > div > div > div.upper-row > div.right-ctnr > div:nth-child(2),
+#sections-vm > div.section-block.f-clear.z-section-blocks > div.left-container > div.flip-view.p-relative.over-hidden.w-100,
+#reco_list>div.rec-list>div:nth-child(1)>div,
+#reportFirst2>div.bypb-window,
+#reportFirst3>div.bypb-window.ggpos,
+#gift-control-vm > div > div.vertical-middle.dp-table.section.right-part.p-relative > div > div.gift-presets.p-relative.t-right,
 #reportFirst2,
 #reportFirst3,
-#activity_vote
-{
+#activity_vote {
     display: none !important;
 }
-#internationalHeader > div.bili-banner {
+
+#internationalHeader>div.bili-banner {
     pointer-events: none;
 }
+
 div.text.p-rel.description .content {
     pointer-events: none;
 }
-#app > #internationalHeader {
+
+#app>#internationalHeader {
     /* transition: all 0.2s ease; */
     top: -56px;
     height: 110px;
 }
-#app > #internationalHeader:hover {
+
+#app>#internationalHeader:hover {
     top: 0px;
 }
-#app > div.v-wrap {
+
+#app>div.v-wrap {
     position: relative;
     top: -82px;
+}
+#internationalHeader > div > div > div.nav-search-box {
+    display: block !important;
+}
+#internationalHeader > div > div > div.nav-search-box > div > div > div.trending {
+    display: none;
+}
+#internationalHeader > div > div > div.nav-search-box > div > div {
+    padding: 16px 0 0 0;
+}
+
+#gift-control-vm {
+    height: 75px;
+}
+#gift-control-vm > div {
+    height: 73px;
 }
