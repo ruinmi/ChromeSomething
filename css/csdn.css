@@ -1,0 +1,10 @@
+#csdn-toolbar > div.toolbar-advert,
+body > div:nth-child(47) > div > div,
+body > div:nth-child(47) > div > a:nth-child(2),
+body > div:nth-child(47) > div > a:nth-child(3),
+body > div:nth-child(47) > div > a:nth-child(4),
+
+#csdn-toolbar > div > div > div.toolbar-container-right > div > div.toolbar-btn.toolbar-btn-vip.csdn-toolbar-fl
+{
+    display: none !important;
+}

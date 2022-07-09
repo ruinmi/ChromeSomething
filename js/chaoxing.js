@@ -1,4 +1,3 @@
-
 if(/.chaoxing.com/.test(website))
 {
     $('div.Py_answer.clearfix > span:nth-child(2)').css('display', 'none');

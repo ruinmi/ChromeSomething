@@ -5,6 +5,7 @@ body > div.layer:nth-child(7),
 body > div.layer:nth-child(8),
 body > div.layer:nth-child(9),
 body > div.layer:nth-child(10),
+body > div:nth-child(11),body > div.tbh-nav.J_Module.tb-pass,
 body > div.cup.J_Cup.search-fixed > div > div > div.tbh-qr-wrapper,
 body > div.tbh-fixedtool.J_Module,
 body > div.cup.J_Cup.search-fixed > div > div > div.tbh-search.J_Module > div > div.search-ft.J_SearchFt.clearfix,
@@ -13,6 +14,7 @@ body > div.cup.J_Cup.search-fixed > div > div > div.tbh-search.J_Module > div > 
 #content > div.login-newbg,
 #page #header > div > a,
 #page > div.footer,
+/* body > div:nth-child(12), */
 #login > div.corner-icon-view.view-type-qrcode > div,
 #tbSearchContent > label
 {
@@ -53,4 +55,12 @@ transform: translateX(525px);
 #page #content > div.content-layout > div {
     left: 50%;
     transform: translateX(-50%);
+}
+
+body > div.cup.J_Cup.search-fixed.search-decorations {
+    background: none !important;
+}
+
+body {
+	height:100vh;
 }

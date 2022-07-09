@@ -1,10 +1,13 @@
-#internationalHeader>div.mini-header.m-header>div>div.nav-link>ul>li:nth-child(8),
+/* #internationalHeader>div.mini-header.m-header>div>div.nav-link>ul>li:nth-child(8),
 #internationalHeader>div.mini-header.m-header>div>div.nav-link>ul>li:nth-child(6),
 #internationalHeader>div.mini-header.m-header>div>div.nav-link>ul>li:nth-child(5),
 #internationalHeader>div.mini-header.m-header>div>div.nav-link>ul>li:nth-child(3),
-#internationalHeader>div.mini-header.m-header>div>div.nav-link>ul>li:nth-child(2),
+#internationalHeader>div.mini-header.m-header>div>div.nav-link>ul>li:nth-child(2), 旧版*/ 
+
+
 #reportFirst1,
 #app>div>div.storey-box.b-wrap,
+#head-info-vm > div > div > div.lower-row > div.left-ctnr > div.activity-gather-entry,
 body>div.international-footer,
 #my-dear-haruna-vm,
 #gift-control-vm > div > div.vertical-middle.dp-table.section.right-part.p-relative > div > div.m-guard-ent.gift-section.guard-ent,
@@ -15,50 +18,144 @@ body>div.international-footer,
 #head-info-vm > div > div > div.upper-row > div.right-ctnr > div:nth-child(2),
 #sections-vm > div.section-block.f-clear.z-section-blocks > div.left-container > div.flip-view.p-relative.over-hidden.w-100,
 #reco_list>div.rec-list>div:nth-child(1)>div,
+#right-bottom-banner,
+/* #reco_list, */
+#live_recommand_report,
 #reportFirst2>div.bypb-window,
 #reportFirst3>div.bypb-window.ggpos,
 #gift-control-vm > div > div.vertical-middle.dp-table.section.right-part.p-relative > div > div.gift-presets.p-relative.t-right,
 #reportFirst2,
 #reportFirst3,
-#activity_vote {
+#app > div > div.home-page.f-clear > div.home-container > div > div.right-panel,
+#app > div > div.home-page.f-clear > div.home-container > div > div.left-panel
+,#biliMainFooter
+,#biliMainHeader > div > div > ul.left-entry > li:nth-child(2)
+,#biliMainHeader > div > div > ul.left-entry > li:nth-child(3)
+,#biliMainHeader > div > div > ul.left-entry > li:nth-child(4)
+,#biliMainHeader > div > div > ul.left-entry > li:nth-child(5)
+,#biliMainHeader > div > div > ul.left-entry > li:nth-child(6)
+,#biliMainHeader > div > div > ul.left-entry > li:nth-child(7)
+,#biliMainHeader > div > div > ul.left-entry > li:nth-child(8)
+,#biliMainHeader > div > div > ul.right-entry > li:nth-child(2)
+,#bili-header-container > div > div > ul.right-entry > li:nth-child(2)
+,#activity_vote
+,#app > div.video-container-v1 > div.right-container.small-mode.is-in-large-ab > a.ad-report.video-card-ad-small
+,#app > div > aside.right
+,#app > div > aside.left
+,#app > div > main > section:nth-child(2)
+,#bili-header-container > div > div > div > div > div > div.trending
+,#comment > div > div > div.reply-notice
+,#bili-header-container > div > div > ul.left-entry > li:nth-child(9)
+{
     display: none !important;
 }
-
-#internationalHeader>div.bili-banner {
+#bili-header-container > div > div > ul.left-entry > li:nth-child(2)
+,#bili-header-container > div > div > ul.left-entry > li:nth-child(3)
+,#bili-header-container > div > div > ul.left-entry > li:nth-child(4)
+,#bili-header-container > div > div > ul.left-entry > li:nth-child(5)
+,#bili-header-container > div > div > ul.left-entry > li:nth-child(6)
+,#bili-header-container > div > div > ul.left-entry > li:nth-child(7)
+,#bili-header-container > div > div > ul.left-entry > li:nth-child(8)
+{
+    opacity: 0;
     pointer-events: none;
 }
-
 div.text.p-rel.description .content {
     pointer-events: none;
 }
 
-#app>#internationalHeader {
+#biliMainHeader > div > div {
     /* transition: all 0.2s ease; */
-    top: -56px;
-    height: 110px;
+    top: -53px;
+    height: 64px;
 }
 
-#app>#internationalHeader:hover {
+#biliMainHeader > div > div:hover {
     top: 0px;
 }
 
 #app>div.v-wrap {
     position: relative;
-    top: -82px;
+    top: -50px;
 }
-#internationalHeader > div > div > div.nav-search-box {
-    display: block !important;
-}
-#internationalHeader > div > div > div.nav-search-box > div > div > div.trending {
-    display: none;
-}
-#internationalHeader > div > div > div.nav-search-box > div > div {
-    padding: 16px 0 0 0;
-}
+
 
 #gift-control-vm {
     height: 75px;
 }
 #gift-control-vm > div {
     height: 73px;
+}
+
+.bilibili-player .bilibili-player-video-control .bilibili-player-video-btn-menu-wrap {
+    width: 420px !important;
+}
+.bilibili-player .bilibili-player-video-control .bilibili-player-video-btn-menu-list {
+    padding: 0 20px 0 20px !important;
+}
+#multi_page > div.cur-list > ul {
+    max-height: 615px !important;
+}
+
+#app > div.v-wrap > div.r-con {
+    max-height: 96px;
+}
+#bilibili-player {
+    width: 1060px;
+}
+#app > div > div.home-page.f-clear > div.home-container > div > div.center-panel
+{
+    width: 100%;
+}
+
+/* 视频卡片 */
+
+div.card-content > div.post-content > div > div.video-container.can-hover
+{
+    height: 250px;
+    width: 900px;
+}
+
+div.card-content > div.post-content > div > div.video-container.can-hover > a > div > div.image-area
+{
+    width: 400px;
+    height: 250px;
+}
+
+video-container.can-hover > a > div > div.text-area {
+    margin: 10px 9px 0 32px;
+}
+
+div.video-container.can-hover > a > div > div.text-area > div.title {
+    font-size: 17px;
+    margin-top: 22px;
+}
+div.video-container.can-hover > a > div > div.text-area > div.content {
+    height: 38px;
+    font-size: 15px;
+}
+div.video-container.can-hover > a > div > div.text-area > div.view-danmaku {
+    font-size: 14px;margin-top: 110px;
+}
+div > div.main-content 
+{
+    width: 930px !important;
+}
+div.main-content > div.card-content > div.post-content.repost
+{
+    padding: 18px 23px !important;
+}
+/* new */
+#app > div > main
+{
+    width: 100% !important;
+}
+
+#bili-header-container > div > div > div > div > div
+{
+    padding: 13px 0 0px !important;
+}
+#bili-header-container > div > div > div > div > div > div.history > div.history-fold-wrap
+{
+    margin: 0 auto 9px;
 }

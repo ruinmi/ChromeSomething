@@ -1,4 +1,4 @@
-const website = window.location.href;
+let website = window.location.href;
 
 // huya
 if(/.huya.com/.test(website))

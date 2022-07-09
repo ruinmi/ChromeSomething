@@ -1,0 +1,38 @@
+#app > div.header-wrapper.no-full-screen.is-top.new-header > div > div > div.right-box > div.vip-activity-wrap-new
+, #app > div.header-wrapper.no-full-screen.is-top.new-header > div > div > div.right-box > div.client-download-wrap
+, #app > div.content-wrapper > div.left-wrapper.zoom-scale > div:nth-child(4) > div > div.new-term-sale-bottom-tip-wrap
+, #app > div.content-wrapper > div.left-wrapper.zoom-scale > div:nth-child(4) > div > div.small-btn-wrap > div.small-btn.report-btn
+, #app > div.content-wrapper > div.left-wrapper.zoom-scale > div:nth-child(4) > div > div.small-btn-wrap > div.small-btn.app-btn
+, #app > div.lazy-load > div.sidebar-wrapper
+, #app > div.header-wrapper.no-full-screen.is-top.new-header > div > div > div.search-tab-wrap > div > div.doc-tool-btn
+, #app > div.header-wrapper.no-full-screen.new-header > div > div > div.right-box > div.vip-activity-wrap-new
+, #app > div.header-wrapper.no-full-screen.new-header > div > div > div.right-box > div.client-download-wrap
+, #right-wrapper-id > div:nth-child(1) > div.vip-privilege-card-wrap.show-close-btn.vip-privilege
+, #app > div.content-wrapper > div.left-wrapper.zoom-scale > div.reader-wrap.wk-web-4774 > div.try-end-fold-page.fold-static.read-end-wrap
+, #footer-wrapper-id
+, #app > div.content-wrapper > div.left-wrapper.zoom-scale > div.no-full-screen.below-reader-1 > div.tool-bar-wrapper.fade-in > div.toolbar-core-btn.docBtns.core-btn-wrapper > div.btn-pay.btn-pay.discount
+, #app > div.content-wrapper > div.left-wrapper.zoom-scale > div.no-full-screen.below-reader-1 > div.tool-bar-wrapper.fade-in > div.toolbar-core-btn.docBtns.core-btn-wrapper > div.btn-pay-vip
+, #app > div.content-wrapper > div.left-wrapper.zoom-scale > div.no-full-screen.below-reader-1 > div.tool-bar-wrapper.fade-in > div.small-btn-wrap > div.small-btn.app-btn.tool-bar.location-ToolBar
+, #app > div.content-wrapper > div.left-wrapper.zoom-scale > div.no-full-screen.below-reader-1 > div.tool-bar-wrapper.fade-in > div.small-btn-wrap > div.client-btn-wrap.location-ToolBar
+, #app > div.content-wrapper > div.left-wrapper.zoom-scale > div.no-full-screen.below-reader-1 > div.tool-bar-wrapper.static > div.toolbar-core-btn.docBtns.core-btn-wrapper > div.btn-pay.btn-pay.discount
+, #app > div.content-wrapper > div.left-wrapper.zoom-scale > div.no-full-screen.below-reader-1 > div.tool-bar-wrapper.static > div.toolbar-core-btn.docBtns.core-btn-wrapper > div.btn-pay-vip
+, #app > div.content-wrapper > div.left-wrapper.zoom-scale > div.no-full-screen.below-reader-1 > div.tool-bar-wrapper.static > div.small-btn-wrap > div.client-btn-wrap.location-ToolBar
+, #app > div.content-wrapper > div.left-wrapper.zoom-scale > div.no-full-screen.below-reader-1 > div.tool-bar-wrapper.static > div.small-btn-wrap > div.small-btn.app-btn.tool-bar.location-ToolBar
+, #app > div.lazy-load > div.vip-member-pop-content
+, #app > div.content-wrapper > div.left-wrapper.zoom-scale > div:nth-child(1) > div > div > div.doc-info-left > div.doc-btns-wrap > div.small-btn.app-btn.location-DocHeadInfo_DocBtns
+, #app > div.content-wrapper > div.left-wrapper.zoom-scale > div:nth-child(1) > div > div > div.doc-info-left > div.doc-btns-wrap > div.client-btn-wrap.location-DocHeadInfo_DocBtns
+, #app > div.content-wrapper > div.left-wrapper.zoom-scale > div:nth-child(1) > div > div > div.doc-info-left > div.doc-btns-wrap > div.summary.core-btn-wrapper > div.btn-pay.btn-pay.discount
+, #app > div.content-wrapper > div.left-wrapper.zoom-scale > div:nth-child(1) > div > div > div.doc-info-left > div.doc-btns-wrap > div.summary.core-btn-wrapper > div.btn-pay-vip
+, #app > div.content-wrapper > div.left-wrapper.zoom-scale > div:nth-child(1) > div > div > div.doc-info-left > div.doc-price-voucher-wrap
+, #right-wrapper-id > div:nth-child(1) > div.vip-privilege-card-wrap.vip-privilege
+, #right-wrapper-id > div:nth-child(1) > div.lazy-load > div
+, #side-fixed-box > div.relative-course-wrapper.fix-block.sider-edge
+,#app > div:nth-child(3) > div.vip-member-pop-content > div.bg-theme-wap > div.bottom-theme-select-wrap
+
+{
+    display: none !important;
+}
+#app > div.header-wrapper.no-full-screen.new-header > div > div > div.search-tab-wrap {
+    opacity: 0;
+    pointer-events: none;
+}

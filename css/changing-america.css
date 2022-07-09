@@ -1,0 +1,7 @@
+body > div.fc-ab-root {
+    display: none !important;
+}
+
+body.home {
+    overflow: auto !important;
+}

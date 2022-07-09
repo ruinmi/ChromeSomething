@@ -1,4 +1,3 @@
-
 if(/.zhihu.com/.test(website))
 {
     if(/(封私信)/.test(document.title))

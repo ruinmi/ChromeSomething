@@ -1,0 +1,11 @@
+#ad_rightslot2 
+, #ad_rightslot
+,body > main > div.topslot_container
+,div.mpuslot_b-container
+,body > main > div.res_cell_left.res_hos.res_hot > div
+{
+ display: none !important;
+ visibility: hidden !important;
+ opacity: 0 !important;
+ pointer-events: none !important;
+}
